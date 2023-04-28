@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: #2f333a;
+  color: white;
+  max-height: 100vh; /* Adjust this value according to your desired height */
+  overflow-y: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #2f333a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.csv-table {
+  border-collapse: collapse;
+  border-radius: 2px solid black;
+  width: 100%;
+  text-align: left;
+}
+
+.csv-table th,
+.csv-table td {
+  border: 1px solid #000000;
+  padding: 8px;
+  
+}
+
+.csv-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #535b6d;
+  font-weight: bold;
+  z-index: 200;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+
+.table-wrapper {
+
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
