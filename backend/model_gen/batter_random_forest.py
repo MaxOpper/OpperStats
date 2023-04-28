@@ -57,4 +57,4 @@ for stat, pred in predictions.items():
 batters_predictions['Predicted_OPS'] = (batters_predictions['Predicted_on_base_percent'] + batters_predictions['Predicted_slg_percent']).round(3)
 
 # Save predictions with calculated OPS to a CSV file
-batters_predictions.to_csv('backend/output/b_forest_pred.csv', index=False)
+batters_predictions.to_csv('frontend/public/b_forest_pred.csv', index=False)

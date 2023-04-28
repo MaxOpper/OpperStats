@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 # Load data
-batters_test_agg = pd.read_csv('backend/cleaned_data/b_val.csv')
-batters_predictions = pd.read_csv('backend/output/b_forest_pred.csv')
+batters_test_agg = pd.read_csv('frontend/public/b_forest_pred.csv')
+batters_predictions = pd.read_csv('frontend/public/p_forest_pred.csv')
 
 # Plot scatter plot for each stat
 stats_to_predict = ['batting_avg', 'on_base_percent', 'slg_percent']

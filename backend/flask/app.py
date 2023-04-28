@@ -33,7 +33,7 @@ def get_projections():
     firstName, lastName = player_name.split(' ')
     if firstName == 'Shohei' and lastName == 'Ohtani':
         pID = b_data.loc[(b_data['first_name'] == firstName) & (b_data['last_name'] == lastName), 'player_id'].iloc[0]
-        # Get pitching and hitting projections for Shohei Ohtani
+        # Get pitching and hitting projections for Shohei Ohtani. Dude breaks this
         player_stats = b_data[b_data['player_id'] == pID]
         player_stats = pd.DataFrame({
             'last_name': [lastName],
