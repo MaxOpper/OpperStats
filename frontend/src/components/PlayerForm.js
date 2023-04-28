@@ -35,7 +35,7 @@ function PlayerForm({ csvData, pitchingCsvData }) {
     const pitchingPlayerID = findPlayerID(inputPlayerName, pitchingCsvData);
     const currentPlayerID = battingPlayerID || pitchingPlayerID;
     setPlayerID(currentPlayerID);
-    axios.post('http://3.22.63.149:5000/projections', {player_name: inputPlayerName})
+    axios.post('http://localhost:5000/projections', {player_name: inputPlayerName})
       .then(response => {
         setProjections(response.data);
       })
