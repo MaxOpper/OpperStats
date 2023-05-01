@@ -21,12 +21,15 @@ function PlayerForm({ csvData, pitchingCsvData }) {
         return row.player_id;
       }
     }
+    
     return null;
   }
   
   function handleInputChange(event) {
     setInputPlayerName(event.target.value);
   }
+  
+
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -34,6 +37,7 @@ function PlayerForm({ csvData, pitchingCsvData }) {
     const battingPlayerID = findPlayerID(inputPlayerName, csvData);
     const pitchingPlayerID = findPlayerID(inputPlayerName, pitchingCsvData);
     const currentPlayerID = battingPlayerID || pitchingPlayerID;
+
     setPlayerID(currentPlayerID);
     axios.post('http://localhost:5000/projections', {player_name: inputPlayerName})
       .then(response => {
@@ -59,7 +63,7 @@ function PlayerForm({ csvData, pitchingCsvData }) {
       </form>
       {projections !== null ? (
         <div>
-          <h2>{playerName} Projections:</h2>
+          <h2>{playerName} Live Projections:</h2>
           {playerID && <img src={getPlayerImageUrl(playerID)} alt={`${playerName}`} />}
           {projections.batting_avg ? (
   <div>
