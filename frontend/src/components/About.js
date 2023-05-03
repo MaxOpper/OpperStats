@@ -1,9 +1,8 @@
 import React from 'react';
-import pdf from './about.pdf';
 
 function About() {
   function handleClick() {
-    window.open(pdf);
+    window.open('https://github.com/MaxOpper/OpperStats');
   }
 
   return (
