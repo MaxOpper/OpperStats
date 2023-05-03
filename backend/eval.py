@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 # Load data
 batters_test_agg = pd.read_csv('frontend/public/b_forest_pred.csv')
