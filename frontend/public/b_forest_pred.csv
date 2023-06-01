@@ -1,4 +1,4 @@
-player_id,first_name,last_name,Predicted_batting_avg,Predicted_slg_percent,Predicted_on_base_percent,Predicted_OPS
+player_id,first_name,last_name,BA,SLG,OBP,OPS
 405395,Albert,Pujols,0.2637006631527118,0.5065787254702253,0.33540799840361685,0.842
 408234,Miguel,Cabrera,0.23907666932368066,0.3532061943585022,0.2988731885512192,0.652
 425877,Yadier,Molina,0.23330137794724667,0.3600498044391125,0.2650878895418307,0.625
