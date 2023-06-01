@@ -1,3 +1,6 @@
+## Note: Search Feature Currently Disabled
+The backend is set up using flask, and https hasn't been set up for it yet, so github pages will block it.
+
 ## Overview
 OpperStats (Open-source Player Projection Estimation Report and Statistics System) was
 created to provide the user with accurate player projections for the 2023 season. There are many
