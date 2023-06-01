@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/%7BOpperStats%7D/static/css/main.9bfac85c.css",
-    "main.js": "/%7BOpperStats%7D/static/js/main.5b4067a4.js",
-    "static/js/787.cda612ba.chunk.js": "/%7BOpperStats%7D/static/js/787.cda612ba.chunk.js",
-    "static/media/about.pdf": "/%7BOpperStats%7D/static/media/about.97f5bf5fb5764b52012d.pdf",
-    "index.html": "/%7BOpperStats%7D/index.html",
-    "main.9bfac85c.css.map": "/%7BOpperStats%7D/static/css/main.9bfac85c.css.map",
-    "main.5b4067a4.js.map": "/%7BOpperStats%7D/static/js/main.5b4067a4.js.map",
-    "787.cda612ba.chunk.js.map": "/%7BOpperStats%7D/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/OpperStats/static/css/main.9bfac85c.css",
+    "main.js": "/OpperStats/static/js/main.19dc3f5a.js",
+    "static/js/787.cda612ba.chunk.js": "/OpperStats/static/js/787.cda612ba.chunk.js",
+    "index.html": "/OpperStats/index.html",
+    "main.9bfac85c.css.map": "/OpperStats/static/css/main.9bfac85c.css.map",
+    "main.19dc3f5a.js.map": "/OpperStats/static/js/main.19dc3f5a.js.map",
+    "787.cda612ba.chunk.js.map": "/OpperStats/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bfac85c.css",
-    "static/js/main.5b4067a4.js"
+    "static/js/main.19dc3f5a.js"
   ]
 }
