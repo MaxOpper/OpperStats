@@ -1,4 +1,4 @@
-player_id,first_name,last_name,Predicted_p_era,Predicted_p_opp_batting_avg,Predicted_woba
+player_id,first_name,last_name,ERA,BA Allowed,wOBA
 425794,Adam,Wainwright,4.556221651310136,0.2757832353498994,0.32468639726180165
 425844,Zack,Greinke,4.528877875303031,0.2791713408420506,0.3311741916224094
 434378,Justin,Verlander,2.5257407596517822,0.2000057564798772,0.24996507314944277
