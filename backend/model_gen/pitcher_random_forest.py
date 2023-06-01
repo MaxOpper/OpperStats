@@ -51,4 +51,4 @@ for stat, pred in pitching_predictions.items():
     pitchers_predictions[f'Predicted_{stat}'] = pred
 
 # Save predictions to a CSV file
-pitchers_predictions.to_csv('backend/output/p_forest_pred.csv', index=False)
+pitchers_predictions.to_csv('frontend/public/p_forest_pred.csv', index=False)
