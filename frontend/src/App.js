@@ -94,7 +94,7 @@ function App() {
 
   useEffect(() => {
     const fetchCSVData = async () => {
-      const response = await fetch('/b_forest_pred.csv');
+      const response = await fetch('/OpperStats/b_forest_pred.csv');
       const reader = response.body.getReader();
       const result = await reader.read();
       const decoder = new TextDecoder('utf-8');
@@ -109,7 +109,7 @@ function App() {
 
   useEffect(() => {
     const fetchPitchingCSVData = async () => {
-      const response = await fetch('/p_forest_pred.csv');
+      const response = await fetch('/OpperStats/p_forest_pred.csv');
       const reader = response.body.getReader();
       const result = await reader.read();
       const decoder = new TextDecoder('utf-8');
